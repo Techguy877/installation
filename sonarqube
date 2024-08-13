@@ -7,7 +7,7 @@
     6  unzip sonarqube-8.9.10.61524.zip
     7  useradd sonar
     8  id sonar
-    9  visudo
+    9  visudo   //In this file find sextion and set sonar ALL=(ALL)  ALL
    10  chown -R sonar:sonar /opt/sonarqube-8.9.10.61524
    11  ls -lrt
    12  chmod -R 775 /opt/sonarqube-8.9.10.61524
